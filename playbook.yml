@@ -1,4 +1,5 @@
 - hosts: 3.133.138.98
+  gather_facts: no
   tasks:
     - name: ping
       ping:
