@@ -1,0 +1,12 @@
+- hosts: 3.133.138.98
+  tasks:
+    - name: ping
+      ping:
+        data: pong
+
+
+  # roles:
+  #   - pip
+  #   - docker
+  #   - docker-compose
+  #   - tools
