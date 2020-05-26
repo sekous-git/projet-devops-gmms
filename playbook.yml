@@ -1,4 +1,4 @@
-- hosts: 3.133.138.98
+- hosts: ec2
   gather_facts: no
   remote_user: admin
   tasks:
